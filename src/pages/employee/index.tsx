@@ -16,6 +16,28 @@ export default function Employee() {
             <Link href="/employee/create" className="btn btn-primary">
               Create
             </Link>
+            <table className="table table-zebra">
+              <thead className="text-sm text-gray-700 uppercase bg-gray-50">
+                <tr>
+                  <th>#</th>
+                  <th>Name</th>
+                  <th>Email</th>
+                  <th>Phone Number</th>
+                  <th>Created At</th>
+                  <th>Actions</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="bg-white border-b">
+                  <th>1</th>
+                  <td>Rifki Rusdi Satma Putra</td>
+                  <td>rifkirusdisatmapitra@gmail.com</td>
+                  <td>087865693246</td>
+                  <td>Date</td>
+                  <td>Edit | Delete</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
